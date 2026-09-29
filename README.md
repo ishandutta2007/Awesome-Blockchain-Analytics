@@ -63,7 +63,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 ## 💻 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars_Count in descending order:* ⭐
+*Sorted by GitHub_Stars_Count in descending order:* ⭐
 
 - **[Blockscout](https://github.com/blockscout/blockscout)** [![Stars](https://img.shields.io/github/stars/blockscout/blockscout?style=social&color=white)](https://github.com/blockscout/blockscout/stargazers) 🔍  
   Open-source, self-hostable EVM block explorer providing contract verification, GraphQL APIs, and developer tools for 800+ networks and rollups.
