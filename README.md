@@ -1,257 +1,172 @@
-# Awesome-Blockchain-Analytics
-
-## Top Blockchain Analytics Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Transaction Monitoring, Address Attribution & On-Chain Intelligence*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Blockchain Analytics**. These tools analyze on-chain data to trace fund flows, attribute addresses to real-world entities, detect illicit activity, and provide market intelligence for compliance teams, investigators, traders, and researchers.
-
-
-
-**Examples** include Chainalysis, TRM Labs, Elliptic, Nansen, Arkham, Dune, Bitquery, Flipside, Covalent, and Glassnode (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom forensics, and transparent data pipelines — ideal for researchers, compliance teams, and developers building vendor-independent blockchain intelligence. The open-source ecosystem is anchored by **GraphSense** (cryptoasset forensics) and **BRK** (Bitcoin analytics), with strong coverage in transaction monitoring engines, indexing frameworks, and data warehouses.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Chainalysis](https://www.chainalysis.com/)**  
-
-  The dominant blockchain intelligence platform for compliance and investigations. Provides transaction monitoring, sanctions screening, entity attribution, and Reactor investigation software. Widely used by government agencies and financial institutions.
-
-
-
-- **[TRM Labs](https://www.trmlabs.com/)**  
-
-  Blockchain intelligence platform for risk management, compliance, and investigations. Offers transaction monitoring, wallet screening, and cross-chain forensics.
-
-
-
-- **[Elliptic](https://www.elliptic.co/)**  
-
-  Cryptoasset risk management platform providing transaction monitoring, wallet screening, and forensics across major blockchains. One of the earliest entrants in the space with extensive entity attribution databases .
-
-
-
-- **[Nansen](https://www.nansen.ai/)**  
-
-  On-chain analytics platform with wallet labels and Smart Money tracking. Provides dashboards for DeFi activity, NFT markets, and token flows .
-
-
-
-- **[Arkham](https://www.arkhamintelligence.com/)**  
-
-  Blockchain intelligence platform focusing on deanonymizing entities and providing real-time intelligence on wallet activity.
-
-
-
-- **[Dune](https://dune.com/)**  
-
-  Blockchain analytics platform with SQL interface for querying on-chain data. Enables custom dashboards and community-shared queries without requiring indexing infrastructure .
-
-
-
-- **[Bitquery](https://bitquery.io/)**  
-
-  Blockchain data platform providing APIs for on-chain data across multiple chains with GraphQL support.
-
-
-
-- **[Flipside](https://flipsidecrypto.xyz/)**  
-
-  Blockchain analytics platform with SQL interface, similar to Dune, focusing on community-driven analytics and data science bounties .
-
-
-
-- **[Covalent](https://www.covalenthq.com/)**  
-
-  Unified blockchain data API providing structured data across 100+ chains for wallets, tokens, NFTs, and transactions.
-
-
-
-- **[Glassnode](https://glassnode.com/)**  
-
-  On-chain market intelligence platform providing 200+ metrics for Bitcoin, Ethereum, and other assets, with a focus on investor and trader insights .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[GraphSense](https://github.com/graphsense)**  
-
-  The leading open-source cryptoasset analytics and forensics platform, developed through Austrian KIRAS projects and the EU Horizon TITANIUM project . Supports Bitcoin, Bitcoin Cash, Litecoin, Zcash, and Ethereum. Provides address- and entity-based transaction graphs, anomaly detection, and visualization for law enforcement, compliance, and research. Uses open-source components throughout for maximum transparency and control. Designed for coordinated national and European-level investigations .
-
-
-
-- **[BRK (Bitcoin Research Kit)](https://github.com/bitcoinresearchkit/brk)**  
-
-  High-performance open-source toolchain for extracting, computing, and visualizing data from a Bitcoin Core node. Positioned as a free alternative to Glassnode, mempool.space, and electrs in one package . Provides a public API and website with no authentication or rate limits, an MCP bridge for LLM access, CLI for self-hosting, and Rust crates for developers. Built for accessibility regardless of budget or background .
-
-
-
-- **[ofi-chain-forensics](https://github.com/Ciprian-LocalPulse/ofi-chain-forensics-en)**  
-
-  Open-source Python library for blockchain fraud and money-laundering detection through transaction graph analysis. MIT licensed with no account, API key, or usage limits . Implements established heuristics from research literature: address clustering via Common-Input-Ownership, change-address detection, suspicious pattern detectors (peeling chain, fan-out, fan-in, rapid pass-through), and explainable risk scoring where every point comes with a natural-language explanation . Explicitly designed as a complement to commercial tools like Chainalysis and Elliptic for independent researchers, NGOs, and investigative journalists .
-
-
-
-- **[Marble](https://github.com/checkmarble/marble)**  
-
-  Open-source real-time decision engine for fraud and AML, used by 100+ fintechs, banks, and crypto exchanges in 15+ countries . Provides transaction monitoring, customer and company screening against sanctions/PEP/adverse media lists, continuous monitoring, investigation suite with unified case manager, AI automation for rule building and investigation, and audit trail . Flexible architecture connects to any internal system or third-party data provider. Free self-hosted option with enterprise features available .
-
-
-
-- **[Chainslake](https://chainslake.com/)**  
-
-  Self-hosted blockchain data warehouse enabling on-premise analytics stacks for on-chain data. Positions as a Dune Analytics alternative for local SQL querying . Built on HDFS, Apache Spark, Delta Lake, Hive Metastore, Trino, Airflow, and Metabase — fully containerized with Docker . Supports multi-chain EVM pipelines with AI Agent Team for automated pipeline lifecycle management from requirements through dashboard creation .
-
-
-
-- **[HyperIndex (Envio)](https://github.com/enviodev/hyperindex)**  
-
-  Ultra-fast multichain blockchain indexer with independently benchmarked performance. HyperSync data engine delivers up to 2000x faster data access than traditional RPC, with 25,000+ events per second historical backfills . Index EVM, SVM, and Fuel chains from a single indexer. Auto-generates indexers from contract addresses or ABIs. Powers production applications including v4.xyz (Uniswap V4 analytics across 10 chains), Stable Volume, Liqo, and Oracle Wars .
-
-
-
-- **[Ape Wisdom](https://github.com/apewisdom/apewisdom)**  
-
-  Open-source alternative to Arkham and Nansen for wallet tracking and smart money analysis (early-stage, limited documentation).
-
-
-
-- **[Ethernal](https://github.com/tryethernal/ethernal)**  
-
-  Self-hostable open-source block explorer for any EVM chain with API and UI hooks for faucets, DEX widgets, custom post-processing, NFT galleries, and verification flows .
-
-
-
-- **[Blockscout](https://github.com/blockscout/blockscout)**  
-
-  Open-source, self-hostable EVM block explorer providing contract verification, APIs, and developer tools for chains and rollups .
-
-
-
-- **[Otterscan](https://github.com/otterscan/otterscan)**  
-
-  Ultra-fast local Ethereum block explorer built on Erigon for EVM chains .
-
-
-
-- **[TrueBlocks](https://github.com/TrueBlocks/trueblocks-core)**  
-
-  Local-first tool for improving access to blockchain data for EVM chains, particularly Ethereum mainnet, while remaining entirely local .
-
-
-
-- **[DipDup](https://github.com/dipdup-io/dipdup)**  
-
-  Python framework for building selective smart contract indexers with faster indexing times and reduced API load .
-
-
-
-- **[Ponder](https://github.com/ponder-sh/ponder)**  
-
-  Open-source framework for blockchain application backends and indexing .
-
-
-
-- **[SubQuery](https://github.com/subquery/subql)**  
-
-  Open-source data indexer providing custom APIs for web3 projects across supported chains .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Shovel** — Ethereum to Postgres indexer for structured on-chain data storage .
-
-- **Cryo** — CLI tool for extracting blockchain data to parquet, CSV, JSON, or Python dataframes .
-
-- **Spice** — Client for extracting data from the Dune Analytics API .
-
-- **Paradigm Data Portal** — Open-source crypto datasets collection for researchers and tool builders .
-
-- **Flair** — Reusable indexing primitives with fault-tolerant RPC ingestors, custom processors, and re-org aware database integrations .
-
-- **Sourcify** — Decentralized open-source smart contract verification service .
-
-- **Blobscan** — Explorer and API for EIP-4844 blobs with decoding, analytics, and deployment charts .
-
-
-
-**Frameworks for building custom blockchain analytics solutions**: Combine **GraphSense** for forensic-grade entity-based transaction graphs across major chains . Use **BRK** for self-hosted Bitcoin analytics with API, CLI, and LLM access . Integrate **ofi-chain-forensics** for transparent, explainable AML risk scoring from transaction graph heuristics . Deploy **Marble** for real-time transaction monitoring and case investigation workflows . Build **Chainslake** for a full on-premise Dune-like SQL analytics stack . Use **HyperIndex** for high-performance multichain indexing powering custom dashboards and applications . Note that true enterprise blockchain analytics with comprehensive entity attribution databases, cross-chain tracing, and regulatory-grade compliance reporting remains primarily commercial territory; open-source stacks provide strong forensic foundations, AML engines, and indexing infrastructure that require integration for complete intelligence platforms.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Blockchain analytics tools must comply with applicable regulations (AML/CFT, sanctions, data privacy) and legal requirements for surveillance and investigation.
-
-- Self-hosted open-source solutions require proper infrastructure, blockchain node access, and ongoing maintenance. Risk scores are prioritization tools for human analysts, not legal proof of fraud .
-
-- The open-source ecosystem provides strong forensic foundations, AML engines, and indexing infrastructure, but comprehensive entity attribution and cross-chain intelligence remain primarily commercial offerings.
-
-
+# Awesome Blockchain Analytics 🚀
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Blockchain Analytics Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Blockchain-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Blockchain-Analytics?style=flat-square" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Blockchain-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Blockchain-Analytics?style=flat-square" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Blockchain-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Blockchain-Analytics?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 🌟 Top Blockchain Analytics & On-Chain Intelligence Ecosystem 🔍
 
+**Curated List of Enterprise SaaS Platforms & Open-Source GitHub Projects** 📊  
+*Focused on Crypto Forensics, Transaction Monitoring, Address Attribution & Smart Contract Indexing* 🛡️
 
-**Made for compliance analysts, investigators, researchers, traders, and blockchain intelligence professionals.**  
+**Last updated: September 2026** 📅
 
-Let's make blockchain analytics more open, transparent, and accessible.
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Blockchain Analytics**. These tools analyze on-chain data to trace fund flows, attribute addresses to real-world entities, detect illicit activity, enforce AML/CFT compliance, and provide market intelligence for compliance teams, investigators, traders, and web3 developers. 🧠
+
+**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom forensics, and transparent data pipelines — ideal for researchers, compliance teams, and developers building vendor-independent blockchain intelligence. 🛠️
+
+---
+
+## 📑 Table of Contents
+
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [❤️ Support & Sponsorship](#%EF%B8%8F-support--sponsorship)
+- [📈 Star History](#-star-history)
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+> [!NOTE]
+> **Market Size & Fragmentation**: The global blockchain analytics and intelligence market is estimated at **~$3.2 Billion (2026)** and projected to grow rapidly. The commercial intelligence and compliance sector is **highly concentrated** (dominated by key leaders like Chainalysis, TRM Labs, and Elliptic due to network effects around proprietary wallet attribution databases and regulatory trust), while retail and developer analytics remain **moderately fragmented**.
+
+*Sorted by estimated company revenue / valuation in descending order:* 📈
+
+| Platform 🌐 | Scale / Valuation 💰 | Starting Paid Tier 💵 | Free Tier / Trial Limit 🎁 | Description & Core Focus ℹ️ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Chainalysis](https://www.chainalysis.com/)** | ~$8.6B Valuation / ~$200M+ ARR | ~$20,000 / year (Enterprise) | 14-day free trial for compliance & screening APIs | Market leader for compliance, sanctions screening, and government forensics (Reactor). |
+| **[TRM Labs](https://www.trmlabs.com/)** | ~$1.0B+ Valuation / ~$80M+ ARR | ~$15,000 / year (Enterprise) | 14-day request-based enterprise demo trial | Multi-chain risk management, wallet screening, and investigation suite. |
+| **[Dune](https://dune.com/)** | ~$1.0B Valuation / ~$30M ARR | $390 / month (Plus Plan) | Free Forever: 2,500 credits/mo, public dashboards & SQL editor | Community SQL analytics platform for querying cross-chain on-chain data. |
+| **[Elliptic](https://www.elliptic.co/)** | ~$500M Valuation / ~$50M ARR | ~$10,000 / year (Enterprise) | 14-day trial available via enterprise contact | Crypto risk management, transaction monitoring, and financial crime investigation. |
+| **[Nansen](https://www.nansen.ai/)** | ~$750M Valuation / ~$25M ARR | $99 / month (Pioneer Plan) | Free Forever: Basic wallet labels, public dashboards & token overview | Smart Money tracking, wallet attribution, DeFi & NFT analytics. |
+| **[Glassnode](https://glassnode.com/)** | ~$250M Valuation / ~$20M ARR | $29 / month (Standard Plan) | Free Forever: Tier 1 metrics (24h delayed data, basic charts) | Institutional on-chain market intelligence and Bitcoin/Ethereum macro indicators. |
+| **[Covalent](https://www.covalenthq.com/)** | ~$150M Valuation / ~$12M ARR | $50 / month (Premium Plan) | Free Forever: 100,000 API credits/month across 100+ chains | Structured unified API for historical wallet, token, and transaction data. |
+| **[Bitquery](https://bitquery.io/)** | ~$50M Valuation / ~$8M ARR | $49 / month (Developer Plan) | Free Forever: 10,000 points/month GraphQL query limit | Multi-chain GraphQL APIs and DEX WebSocket data streams. |
+| **[Arkham](https://www.arkhamintelligence.com/)** | ~$300M Token MCap / ~$5M ARR | Custom Enterprise API tier | Free Forever: Unlimited public entity intelligence & deanonymization platform | Deanonymization platform tracking entity wallets and real-time alerts. |
+| **[Flipside](https://flipsidecrypto.xyz/)** | ~$30M Funding / ~$5M ARR | $150 / month (Pro API Tier) | Free Forever: Unlimited SQL queries & community data bounties | SQL data platform with community-driven analytics and data science bounties. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+*Sorted by GitHub Star Count in descending order:* ⭐
+
+- **[Blockscout](https://github.com/blockscout/blockscout)** [![Stars](https://img.shields.io/github/stars/blockscout/blockscout?style=social&color=white)](https://github.com/blockscout/blockscout/stargazers) 🔍  
+  Open-source, self-hostable EVM block explorer providing contract verification, GraphQL APIs, and developer tools for 800+ networks and rollups.
+
+- **[SubQuery](https://github.com/subquery/subql)** [![Stars](https://img.shields.io/github/stars/subquery/subql?style=social&color=white)](https://github.com/subquery/subql/stargazers) ⚡  
+  Open-source decentralized data indexer providing custom GraphQL APIs for Web3 projects across 150+ supported chains.
+
+- **[TrueBlocks](https://github.com/TrueBlocks/trueblocks-core)** [![Stars](https://img.shields.io/github/stars/TrueBlocks/trueblocks-core?style=social&color=white)](https://github.com/TrueBlocks/trueblocks-core/stargazers) 🛡️  
+  Local-first, index-driven toolchain for fast, private access to complete EVM blockchain history without relying on RPC providers.
+
+- **[Ponder](https://github.com/ponder-sh/ponder)** [![Stars](https://img.shields.io/github/stars/ponder-sh/ponder?style=social&color=white)](https://github.com/ponder-sh/ponder/stargazers) 🚀  
+  High-performance open-source framework for building Web3 backend APIs and indexing blockchain event data in TypeScript.
+
+- **[Otterscan](https://github.com/otterscan/otterscan)** [![Stars](https://img.shields.io/github/stars/otterscan/otterscan?style=social&color=white)](https://github.com/otterscan/otterscan/stargazers) 🏎️  
+  Ultra-fast, ultra-lightweight local Ethereum block explorer tailored for execution client nodes (Erigon, Reth).
+
+- **[Sourcify](https://github.com/ethereum/sourcify)** [![Stars](https://img.shields.io/github/ethereum/sourcify?style=social&color=white)](https://github.com/ethereum/sourcify/stargazers) 📜  
+  Decentralized open-source smart contract source code verification service and metadata registry for EVM chains.
+
+- **[Cryo](https://github.com/paradigmxyz/cryo)** [![Stars](https://img.shields.io/github/stars/paradigmxyz/cryo?style=social&color=white)](https://github.com/paradigmxyz/cryo/stargazers) ❄️  
+  Extremely fast CLI and Rust library developed by Paradigm for extracting EVM blockchain data to Parquet, CSV, or Python DataFrames.
+
+- **[DipDup](https://github.com/dipdup-io/dipdup)** [![Stars](https://img.shields.io/github/stars/dipdup-io/dipdup?style=social&color=white)](https://github.com/dipdup-io/dipdup/stargazers) 🐍  
+  Python framework for building selective smart contract indexers with SQLite/PostgreSQL storage and GraphQL APIs.
+
+- **[GraphSense](https://github.com/graphsense)** [![Stars](https://img.shields.io/github/stars/graphsense/graphsense-dashboard?style=social&color=white)](https://github.com/graphsense/graphsense-dashboard/stargazers) 🔬  
+  The premier open-source cryptoasset analytics and forensics platform (EU Horizon TITANIUM project). Provides address clustering, entity graphs, and flow analysis for BTC, ETH, LTC, ZEC, and BCH.
+
+- **[HyperIndex (Envio)](https://github.com/enviodev/hyperindex)** [![Stars](https://img.shields.io/github/stars/enviodev/hyperindex?style=social&color=white)](https://github.com/enviodev/hyperindex/stargazers) ⚡  
+  Ultra-fast multichain indexer delivering up to 2000x faster historical event ingestion via HyperSync across EVM, SVM, and Fuel chains.
+
+- **[Ethernal](https://github.com/tryethernal/ethernal)** [![Stars](https://img.shields.io/github/stars/tryethernal/ethernal?style=social&color=white)](https://github.com/tryethernal/ethernal/stargazers) 🌐  
+  Self-hostable block explorer designed for local EVM development chains (Hardhat, Anvil, Ganache) with contract debugging tools.
+
+- **[Marble](https://github.com/checkmarble/marble)** [![Stars](https://img.shields.io/github/stars/checkmarble/marble?style=social&color=white)](https://github.com/checkmarble/marble/stargazers) 🛡️  
+  Open-source real-time transaction monitoring and AML decision engine for crypto exchanges and fintechs with screening & case management.
+
+- **[Blobscan](https://github.com/blobscan/blobscan)** [![Stars](https://img.shields.io/github/stars/blobscan/blobscan?style=social&color=white)](https://github.com/blobscan/blobscan/stargazers) 📦  
+  The first open-source block explorer dedicated to indexing and analyzing EIP-4844 blob data on Ethereum.
+
+- **[Shovel](https://github.com/indexsupply/shovel)** [![Stars](https://img.shields.io/github/stars/indexsupply/shovel?style=social&color=white)](https://github.com/indexsupply/shovel/stargazers) ⛏️  
+  Lightweight Ethereum-to-Postgres indexer designed to transform block and event logs into structured relational tables using simple JSON rules.
+
+- **[BRK (Bitcoin Research Kit)](https://github.com/bitcoinresearchkit/brk)** [![Stars](https://img.shields.io/github/stars/bitcoinresearchkit/brk?style=social&color=white)](https://github.com/bitcoinresearchkit/brk/stargazers) 📊  
+  High-performance open-source toolchain for parsing, computing metrics, and visualizing data directly from a local Bitcoin Core node.
+
+- **[ofi-chain-forensics](https://github.com/Ciprian-LocalPulse/ofi-chain-forensics-en)** [![Stars](https://img.shields.io/github/stars/Ciprian-LocalPulse/ofi-chain-forensics-en?style=social&color=white)](https://github.com/Ciprian-LocalPulse/ofi-chain-forensics-en/stargazers) 🔎  
+  Python library for blockchain money-laundering detection and transaction graph analysis implementing address clustering and risk scoring.
+
+- **[Chainslake](https://github.com/chainslake/chainslake)** [![Stars](https://img.shields.io/github/stars/chainslake/chainslake?style=social&color=white)](https://github.com/chainslake/chainslake/stargazers) 🏢  
+  Self-hosted blockchain data warehouse built on Apache Spark, Trino, and Delta Lake, offering an on-premise alternative to commercial SQL platforms.
+
+- **[Ape Wisdom](https://github.com/apewisdom/apewisdom)** [![Stars](https://img.shields.io/github/stars/apewisdom/apewisdom?style=social&color=white)](https://github.com/apewisdom/apewisdom/stargazers) 🐒  
+  Open-source sentiment and smart money tracking prototype for monitoring high-profile crypto wallet activities.
+
+---
+
+### 🛠️ Additional Open-Source Developer Tools & Data Pipelines
+
+- **[Spice](https://github.com/spicehq/spice)** [![Stars](https://img.shields.io/github/stars/spicehq/spice?style=social&color=white)](https://github.com/spicehq/spice/stargazers) — Unified SQL data engine and CLI for querying crypto datasets locally. 🌶️
+- **[Paradigm Data Portal](https://github.com/paradigmxyz/data-portal)** [![Stars](https://img.shields.io/github/stars/paradigmxyz/data-portal?style=social&color=white)](https://github.com/paradigmxyz/data-portal/stargazers) — Open-source repository of standardized crypto research datasets. 📂
+- **[Flair](https://github.com/flair-sdk/flair-sdk)** [![Stars](https://img.shields.io/github/stars/flair-sdk/flair-sdk?style=social&color=white)](https://github.com/flair-sdk/flair-sdk/stargazers) — Reusable, fault-tolerant indexing primitives for custom multi-chain ingest pipelines. ⚙️
+
+---
+
+## 💡 How to Contribute
+
+Contributions are highly appreciated! Help keep this repository up-to-date and comprehensive. ✨
+
+1. **Fork** the repository. 🍴
+2. **Add/Edit** entries in [README.md](file:///C:/Users/hp/Documents/Projects/Awesome-Blockchain-Analytics/README.md) adhering to the existing structure.
+3. Ensure tools are classified under **SaaS/Hosted** or **Open-Source**. 📌
+4. Submit a **Pull Request** with a detailed summary. 🚀
+
+Check out our reference hub at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists! 🌟
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational and research purposes.
+- Usage of blockchain analytics tools must conform to legal AML/CFT frameworks, sanctions regulations, and regional data privacy laws. ⚖️
+- Open-source risk scoring engines provide heuristic indicators rather than automated legal proof. 🛡️
+
+---
+
+## ❤️ Support & Sponsorship
+
+Thank you for visiting and supporting the **Awesome Blockchain Analytics** project! 🙏
+
+If you find this repository valuable for your research, forensic investigations, or development stack, please consider:
+- ⭐ **Starring** this repository to increase visibility.
+- 🔄 **Forking & Sharing** with fellow researchers, analysts, and developers.
+- ☕ **Buying me a coffee** to support ongoing maintenance:
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-Sponsor%20me-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Blockchain-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Blockchain-Analytics&type=date&legend=top-left)
