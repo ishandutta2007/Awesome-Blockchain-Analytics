@@ -119,6 +119,9 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 - **[Ape Wisdom](https://github.com/apewisdom/apewisdom)** [![Stars](https://img.shields.io/github/stars/apewisdom/apewisdom?style=social&color=white)](https://github.com/apewisdom/apewisdom/stargazers) 🐒  
   Open-source sentiment and smart money tracking prototype for monitoring high-profile crypto wallet activities.
 
+- **[HostDeFi](https://github.com/verixiaapps/nexus-dex)** [![Stars](https://img.shields.io/github/stars/verixiaapps/nexus-dex?style=social&color=white)](https://github.com/verixiaapps/nexus-dex/stargazers) 🛡️  
+  Open-source multi-chain token risk scanner and markets explorer — instant on-chain safety grades for Solana and EVM tokens, plus a machine-payable x402 API.
+
 ---
 
 ### 🛠️ Additional Open-Source Developer Tools & Data Pipelines
