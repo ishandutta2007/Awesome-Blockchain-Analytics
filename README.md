@@ -58,6 +58,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 | **[Bitquery](https://bitquery.io/)** | ~$50M Valuation / ~$8M ARR | $49 / month (Developer Plan) | Free Forever: 10,000 points/month GraphQL query limit | Multi-chain GraphQL APIs and DEX WebSocket data streams. |
 | **[Arkham](https://www.arkhamintelligence.com/)** | ~$300M Token MCap / ~$5M ARR | Custom Enterprise API tier | Free Forever: Unlimited public entity intelligence & deanonymization platform | Deanonymization platform tracking entity wallets and real-time alerts. |
 | **[Flipside](https://flipsidecrypto.xyz/)** | ~$30M Funding / ~$5M ARR | $150 / month (Pro API Tier) | Free Forever: Unlimited SQL queries & community data bounties | SQL data platform with community-driven analytics and data science bounties. |
+| **[FreezeRadar](https://freezeradar.com/)** | Early-stage startup | $4.9 / month (Pro) | Free Forever: public address checks | Wallet screening for freezeable stablecoins: checks USDT/USDC/PAXG/XAUt issuer blacklist (freeze) status and sanctions exposure, with a live freeze/release feed. |
 
 ---
 
