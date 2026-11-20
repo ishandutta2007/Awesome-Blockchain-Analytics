@@ -110,6 +110,9 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 - **[BRK (Bitcoin Research Kit)](https://github.com/bitcoinresearchkit/brk)** [![Stars](https://img.shields.io/github/stars/bitcoinresearchkit/brk?style=social&color=white)](https://github.com/bitcoinresearchkit/brk/stargazers) 📊  
   High-performance open-source toolchain for parsing, computing metrics, and visualizing data directly from a local Bitcoin Core node.
 
+- **[Hopline](https://github.com/forensicworks/hopline)** [![Stars](https://img.shields.io/github/stars/forensicworks/hopline?style=social&color=white)](https://github.com/forensicworks/hopline/stargazers) 🔎
+  Local-first Bitcoin investigation tool that runs in the browser. Trace transactions, detect patterns (peel chains, change, CoinJoin-like) with explicit reasons, label wallets, and export verifiable reports. Nothing stored on a server.
+
 - **[ofi-chain-forensics](https://github.com/Ciprian-LocalPulse/ofi-chain-forensics-en)** [![Stars](https://img.shields.io/github/stars/Ciprian-LocalPulse/ofi-chain-forensics-en?style=social&color=white)](https://github.com/Ciprian-LocalPulse/ofi-chain-forensics-en/stargazers) 🔎  
   Python library for blockchain money-laundering detection and transaction graph analysis implementing address clustering and risk scoring.
 
@@ -121,7 +124,6 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 - **[HostDeFi](https://github.com/verixiaapps/nexus-dex)** [![Stars](https://img.shields.io/github/stars/verixiaapps/nexus-dex?style=social&color=white)](https://github.com/verixiaapps/nexus-dex/stargazers) 🛡️  
   Open-source multi-chain token risk scanner and markets explorer — instant on-chain safety grades for Solana and EVM tokens, plus a machine-payable x402 API.
-
 ---
 
 ### 🛠️ Additional Open-Source Developer Tools & Data Pipelines
